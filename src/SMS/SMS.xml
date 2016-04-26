@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="SMS.widget.SMS" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>SMS</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="sourceMF" type="microflow" required="true">
+          <caption>Phone number</caption>
+          <category>Settings</category>
+          <description>Microflow returning a phone number as string</description>
+          <returnType type="String"></returnType>
+    	</property>
+    	<property key="isReadOnly" type="boolean" defaultValue="false">
+    	  <caption>Read only</caption>
+    	  <category>Settings</category>
+    	  <description>Should the phone number be read only?</description>
+    	</property>
+    	<property key="isVisible" type="boolean" defaultValue="true">
+    	  <caption>Visibility</caption>
+    	  <category>Settings</category>
+    	  <description>Should the phone number be visible?</description>
+    	</property>
+    	<property key="buttonText" type="string" required="true">
+    	  <caption>Button text</caption>
+    	  <category>Settings</category>
+    	  <description>Text on the send button</description>
+    	</property>
+    </properties>
+</widget>
+
