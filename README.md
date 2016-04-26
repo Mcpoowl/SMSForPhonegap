@@ -18,8 +18,8 @@ This widget renders two input fields and a button in your application; a number 
 
 If you use this widget, note that you need to edit phonegap config.xml with the following additions:
 
-* Upgrade your Phonegap version to cli-6.0.0. Edit the line into this: <preference name="phonegap-version" value="cli-6.0.0" />
-* Add the sms plugin to the plugin list. Add this: <gap:plugin name="cordova-sms-plugin" version="0.1.10" source="npm" />
+* Upgrade your Phonegap version to cli-6.0.0. Edit the line into this: ```<preference name="phonegap-version" value="cli-6.0.0" />```
+* Add the sms plugin to the plugin list. Add this: ```<gap:plugin name="cordova-sms-plugin" version="0.1.10" source="npm" />```
 
 After having done this, be sure to rebuild your phonegap package.
 
